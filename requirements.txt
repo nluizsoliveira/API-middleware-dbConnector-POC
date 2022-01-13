@@ -1,0 +1,4 @@
+setuptools
+mysql-connector-python
+flask
+flask_cors

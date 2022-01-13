@@ -1,0 +1,123 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#app{
+    margin-left: 10px;
+}
+.image{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-height: 300px;
+    padding: 5px;
+    margin: 5px;
+    border: 0.5px solid rgba(94, 88, 88, 0.824);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#library{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+h1{
+    display: center;
+}
+
+.author{
+    font-style: italic;
+}
+
+.id{
+    font-size: 9px;
+}
+
+.imageMenuWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.add{
+    color: green;
+    font-weight: 1000;
+    font-size: 16px;
+    transition: transform .2s; 
+    
+}
+
+.remove{
+    margin-right: 50px;
+    color: red;
+    font-weight: 1000;
+    font-size: 16px;
+    transition: transform .2s; 
+}
+
+.add:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+.remove:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+
+#wrapper{
+    display: flex;
+}
+
+.menuButton{
+    margin-top: 5px;
+}
+
+.navButton{
+    margin-left: 10px;
+}
+
+#navWrapper{
+    display: flex;
+    align-items: center;
+}
+#searchBook{
+    padding: 20px;
+}
+
+#welcomeWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.mirror{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.navImg{
+    margin: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: rotate(-10deg);
+}
+
+p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
