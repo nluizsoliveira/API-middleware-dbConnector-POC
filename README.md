@@ -4,7 +4,7 @@ A frontend/backend website using API/middleware/dbConnector pattern implementati
 ![print of the application](/print.png)
 
 ## **Features implemented/used:**
-- `.env` file for managing passwords, virtualenv and requirements.txt for managing packages
+- `.env` file for managing passwords, `virtualenv` and `requirements.txt` for managing packages
 - `db_connector.py`: defines a Class for interacting with mysql database
 - `middleware.py`: defines a Class for instantiating a `DbConnector`, implementing business logic, preparing parameters for contextualized queries for the application and calling its db_connector to execute the queries
 - `api.py`: defines uses Flask to define an API that instantiates Midleware, populates the db if the table `books` does not exists, exposes a port and defines specific routes according to business logic to be called from frontend, executing Middlewares functions when necessary and handeling/responsing JSONs.
