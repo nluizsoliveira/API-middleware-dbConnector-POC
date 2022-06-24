@@ -1,4 +1,4 @@
-# amdocs-onboarding-project
+# API-middleware-dbConnector-POC
 A frontend/backend website using API/middleware/dbConnector pattern implementation for a simple library system (Python, Mysql, JS, HTML, CSS)
 
 ![print of the application](/print.png)
